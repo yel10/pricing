@@ -1,0 +1,169 @@
+@font-face {
+    font-family: "NotoSans-b";
+    src: url("font/NotoSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "montserrat-r";
+    src: url("font/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "montserrat-b";
+    src: url("font/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "montserrat-semi";
+    src: url("font/Montserrat-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "NotoSans-r";
+    src: url("font/NotoSans-Regular.ttf") format("truetype");
+}
+
+.md-accordion a:not(.collapsed) .rotate-icon{
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.pricing-table .col-lg-3{
+  padding:0;
+  top:25px;
+  position: relative;
+}
+
+.accordion .card-body{
+  padding:0;
+}
+
+.spacer{
+    height:232px;
+}
+
+.spacer2{
+  height:94px;
+}
+
+.card p{
+  text-align:center;
+  color:#3d464d;
+  font-size: 12px;
+  font-family: "NotoSans-r";
+}
+
+.card .btn{
+  color:#fff;
+  margin:30px 0 15px 0;
+  font-size: 18px;
+  font-family: "montserrat-b";
+  padding: 10px 0;
+}
+
+.card{
+  border-radius: 0;
+  border-color: #f4f4f4;
+  border-width: 2px;
+  box-shadow: 0 34px 43px #6060600D;
+  position: relative;
+}
+
+.collapse ul li, .collapsing ul li{
+  display: block;
+  font-family: "NotoSans-r";
+  font-size: 14px;
+  color:#3d464d;
+  padding: 10px 0;
+  border-bottom:.3em solid #f4f4f4;
+  text-transform: capitalize;
+}
+
+.collapse ul li:last-child, .collapsing ul li:last-child{
+  border:0;
+}
+
+.collapse ul, .collapsing ul{
+  padding:0;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.m-left li, .collapsing .m-left li{
+  margin-left: 1.0rem;
+}
+.collapse ul.fa-ul, .collapsing ul.fa-ul {
+  margin-left: 0rem;
+}
+
+.collapse ul.fa-ul li, .collapsing ul.fa-ul li{
+  padding: 10px 15px;
+}
+
+.basic{
+  background: #7c6e99;
+  }
+  
+  .business{
+      background:#a7cb1a;
+  }
+  
+  .pro{
+      background:#4c7ca5;
+  }
+  
+  .card-title {
+      font-family: "NotoSans-b";
+      font-size: 18px;
+  }
+  
+  .card-price {
+      font-family: "montserrat-semi";
+      font-size: 36px;
+      color:#3d464d;
+      margin:15px 0 8px 0;
+  }
+
+  .accordion h4{
+        font-family: "NotoSans-b";
+        font-size: 14px;
+        padding:10px 0;
+        background: #f4f4f4;
+        margin:0;
+  }
+  .accordion h4:first-child {
+    padding: 10px 15px;
+}
+
+.accordion a{
+  color:#000;
+}
+
+.accordion a:hover{
+ text-decoration:none;
+}
+
+.fa-question-circle-o{
+  color:#a7cb1a;
+  margin-left:5px;
+}
+.best_value{
+  font-family: "montserrat-b";  
+  font-size: 12px;
+  text-align:center;
+  text-transform: uppercase;
+  background:#a7cb1a ;
+  color:#fff;
+  position: absolute;
+  top: -18px;
+  z-index: 9;
+  width: 100%;
+}
+
+@media screen and (max-width:900px){
+  .spacer, .spacer2{
+    height:0;
+    padding:0 !important;
+  }
+
+}
