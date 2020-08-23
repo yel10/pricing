@@ -103,16 +103,28 @@
 .basic{
   background: #7c6e99;
   }
+
+.basic:hover{
+    background: #a7cb1a;
+  }
   
-  .business{
+.business{
       background:#a7cb1a;
   }
+
+  .business:hover{
+    background:#4c7ca5;
+}
   
-  .pro{
+.pro{
       background:#4c7ca5;
   }
+
+.pro:hover{
+    background:#7c6e99;
+}
   
-  .card-title {
+.card-title {
       font-family: "NotoSans-b";
       font-size: 18px;
   }
